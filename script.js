@@ -21,6 +21,6 @@ function displayQuote(){
     quoteAuthor.textContent = `- ${quote.author}`;
 }
 
-newQuotebtn.addEventListener('Click', displayQuote);
+newQuotebtn.addEventListener('click', displayQuote);
 
 window.onload = displayQuote;
