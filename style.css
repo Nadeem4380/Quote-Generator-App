@@ -1,1 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
 
+.quote-container{
+    background: #ffff;
+    padding: 32px 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    text-align: center;
+    width: 340px;
+}
+
+#quote-text{
+    font-size: 1rem;
+    color: #888;
+    margin-bottom: 24px;
+}
+
+#new-quote{
+    background: #1976d2;
+    color: #ffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    transition: background 0.2s;
+}
+
+#new-quote:hover{
+    background: #1565c0;
+}
