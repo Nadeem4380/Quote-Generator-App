@@ -8,7 +8,7 @@ const quotes = [
 
 const quoteText = document.getElementById('quote-text');
 const quoteAuthor = document.getElementById('quote-author');
-const newQuotebtn = document.getElementById('new-quote');
+const newQuoteBtn = document.getElementById('new-quote');
 
 function getRandomQuote(){
     let index = Math.floor(Math.random() * quotes.length);
